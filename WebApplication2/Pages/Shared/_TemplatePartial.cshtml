@@ -22,7 +22,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
 
-
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   <div class="container-fluid">
         <a class="navbar-brand"
@@ -381,7 +380,7 @@
         if ($(this).find('en').length) {
             var english = $(this).find('en');
             var french = $(this).find('fr');
-            $(this).html(pageLang === 'en' ? english : french);
+            $(this).replaceWith(pageLang === 'en' ? english.html() : french.html());
         } else {
             var text = $(this).text();
             var arr = text.split('@@');

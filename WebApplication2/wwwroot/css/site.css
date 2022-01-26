@@ -895,17 +895,17 @@ nav .dropdown-menu .dropdown-item {
 }
 
     /* line 99, ../scss/main.scss */
-    nav .dropdown-menu .dropdown-item:hover {
+    /*nav .dropdown-menu .dropdown-item:hover {
         background-color: #1880fe;
         color: #fff;
         padding-left: 28px !important;
-    }
+    }*/
 
     /* line 109, ../scss/main.scss */
-    nav .dropdown-menu .dropdown-item svg {
+    /*nav .dropdown-menu .dropdown-item svg {
         color: #2E2E2E;
         margin-right: 10px;
-    }
+    }*/
 
 /* line 115, ../scss/main.scss */
 nav #right-drop-fix {
