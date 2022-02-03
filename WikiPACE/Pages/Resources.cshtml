@@ -1,0 +1,887 @@
+﻿@page
+{{tcCentreOfExcellence_pace}}
+<html>
+<script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<style>
+    img.largeImg {
+        width: 100%;
+    }
+    img.medImg {
+        width: 50%;
+    }
+
+    p.intro {
+        line-height: 1.8;
+        font-size: 20px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    span.smallFont {
+        font-size: 0.5em;
+    }
+</style>
+
+<div class="jumbotron-sub-even">
+    <h1 class="display-4">
+        <multilang>
+            <en>TOOLS &amp; RESOURCES</en>
+            <fr>OUTILS &amp; RESSOURCES</fr>
+        </multilang>
+    </h1>
+</div>
+<div class="container">
+    <div style="text-align:center;padding-bottom:10px;">
+    </div>
+    <h3>
+        <multilang>
+            <en>
+                Hi there, welcome to the Power Apps Centre of Excellence (PACE)!
+            </en>
+            <fr>
+                Bonjour, bienvenue au Centre d’excellence Power Apps (PACE)!
+            </fr>
+        </multilang>
+    </h3>
+    <div class="intro">
+        <multilang>
+            <en>
+                Power Apps is a platform for designing, building and deploying low code applications for web and mobile with a view towards silo breaking, scalability, and re-usability.
+                <br /><br />
+                PS - We are constantly looking to improve the content on this wiki, so if you don’t find the answer to your question then feel free to reach out to us at PowerAppsCenterOfExcellence-PowerAppsCentreDExcellence@tc.gc.ca.
+            </en>
+            <fr>
+                Power Apps est une plateforme qui permet de concevoir, de développer et de déployer des applications « low-code » pour le Web et les appareils mobiles dans une optique de décloisonnement, d’évolutivité et de réutilisation.
+                <br /><br />
+                PS : nous cherchons constamment à améliorer le contenu de ce wiki, donc si vous ne trouvez pas de réponse à votre question, n’hésitez pas à nous contacter à PowerAppsCenterOfExcellence-PowerAppsCentreDExcellence@tc.gc.ca.
+            </fr>
+        </multilang>
+    </div>
+    <br />
+    <div class="toc">
+        <multilang>
+            <en>
+                Quick Links
+            </en>
+            <fr>
+                Liens rapides
+            </fr>
+        </multilang>
+        <ol>
+            <li>
+                <a href='#whyuse'>
+                    <multilang>
+                        <en>
+                            Why should we use Power Apps?
+                        </en>
+                        <fr>
+                            Pourquoi devrions-nous utiliser Power Apps?
+                        </fr>
+                    </multilang>
+                </a>
+            </li>
+            <li>
+                <a href='#powerplatformvspowerapps'>
+                    <multilang>
+                        <en>
+                            What is the difference between MS Power Platform, MS Power Apps?
+                        </en>
+                        <fr>
+                            Quelle est la différence entre MS Power Platform et MS Power Apps?
+                        </fr>
+                    </multilang>
+                </a>
+                </a>
+            </li>
+            <li>
+                <a href='#modelvscanvasvsportal'>
+                    <multilang>
+                        <en>
+                            What is the difference between model-driven app, canvas app, and portals?
+                        </en>
+                        <fr>
+                            Quelle est la différence entre une application basée sur modèle, une application canevas et un portail?
+                        </fr>
+                    </multilang>
+                </a>
+            </li>
+            <li>
+                <a href='#whatisdataverse'>
+                    <multilang>
+                        <en>
+                            What is Dataverse?
+                        </en>
+                        <fr>
+                            Qu’est-ce que Dataverse?
+                        </fr>
+                    </multilang>
+                </a>
+            </li>
+            <li>
+                <a href='#d365vspowerapps'>
+                    <multilang>
+                        <en>
+                            What is the difference between MS Dynamics 365 and Model-Driven Power Apps?
+                        </en>
+                        <fr>
+                            Quelle est la différence entre MS Dynamics 365 et une application basée sur modèle Power Apps?
+                        </fr>
+                    </multilang>
+                </a>
+            </li>
+            <li>
+                <a href='#powerautomate'>
+                    <multilang>
+                        <en>
+                            What is Power Automate (formally called Flow)?
+                        </en>
+                        <fr>
+                            Qu’est-ce que Power Automate (anciennement Flow)?
+                        </fr>
+                    </multilang>
+                </a>
+            </li>
+            <li>
+                <a href='#environment'>
+                    <multilang>
+                        <en>
+                            How do I get access to an environment?
+                        </en>
+                        <fr>
+                            Comment puis-je avoir accès à un environnement?
+                        </fr>
+                    </multilang>
+                </a>
+            </li>
+            <li>
+                <a href='#cost'>
+                    <multilang>
+                        <en>
+                            What is the cost to my team and how do I request a license?
+                        </en>
+                        <fr>
+                            Quel est le coût pour mon équipe et comment puis-je demander une licence?
+                        </fr>
+                    </multilang>
+                </a>
+            </li>
+            <li>
+                <a href='#thirdparty'>
+                    <multilang>
+                        <en>
+                            How do I connect my third-party app to Dataverse?
+                        </en>
+                        <fr>
+                            Comment puis-je connecter mon application tierce à Dataverse?
+                        </fr>
+                    </multilang>
+                </a>
+            </li>
+            <li>
+                <a href='#storage'>
+                    <multilang>
+                        <en>
+                            Is unlimited storage included?
+                        </en>
+                        <fr>
+                            Le stockage illimité est-il inclus?
+                        </fr>
+                    </multilang>
+                </a>
+            </li>
+            <li>
+                <a href='#secure'>
+                    <multilang>
+                        <en>
+                            How secure is Power Apps?
+                        </en>
+                        <fr>
+                            Quel est le degré de sécurité de Power Apps?
+                        </fr>
+                    </multilang>
+                </a>
+            </li>
+            <li>
+                <a href='#questions'>
+                    <multilang>
+                        <en>
+                            Who do I contact if I have more questions?
+                        </en>
+                        <fr>
+                            Qui dois-je contacter si j’ai d’autres questions?
+                        </fr>
+                    </multilang>
+                </a>
+            </li>
+            <li>
+                <a href='#createapp'>
+                    <multilang>
+                        <en>
+                            How do I create my app?
+                        </en>
+                        <fr>
+                            Comment puis-je créer mon application?
+                        </fr>
+                    </multilang>
+                </a>
+            </li>
+            <li>
+                <a href='#presentations'>
+                    <multilang>
+                        <en>
+                            PACE Presentations
+                        </en>
+                        <fr>
+                            Présentations PACE
+                        </fr>
+                    </multilang>
+                </a>
+            </li>
+        </ol>
+    </div>
+    <br />
+    <div class="accordian" id="divFaq">
+        <div class="card">
+            <div class="card-header" id="whyuse">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                        <multilang>
+                            <en>
+                                Why should we use Power Apps?
+                            </en>
+                            <fr>
+                                Pourquoi devrions-nous utiliser Power Apps?
+                            </fr>
+                        </multilang>
+                    </button>
+                </h5>
+            </div>
+
+            <div id="collapse1" class="collapse show" data-parent="#divFaq">
+                <div class="card-body">
+                    <multilang>
+                        <en>
+                            Power Apps provides a broad platform for low code, rapid deployment development for the web and mobile devices that places Citizen Development at the forefront.
+                            <ul>
+                                <li>
+                                    188% Return on Investment (ROI) over three years*
+                                </li>
+                                <li>
+                                    74% reduction in application development costs*
+                                </li>
+                                <li>
+                                    3.2 hours average improvement to line of business productivity a week*
+                                </li>
+                            </ul>
+                            <span class="smallFont">* Forrester Consulting study "The total economic impact of Power Apps”</span>
+                        </en>
+                        <fr>
+                            Power Apps fournit une vaste plateforme pour le développement d’applications « low-code » et à déploiement rapide destinées au Web et aux appareils mobiles, qui place le développement citoyen au premier plan.
+                            <ul>
+                                <li>
+                                    Rendement du capital investi (RCI) de 188 % sur trois ans*
+                                </li>
+                                <li>
+                                    Réduction des coûts de développement des applications de 74 %*
+                                </li>
+                                <li>
+                                    Amélioration moyenne de la productivité des entreprises de 3,2 heures par semaine*
+                                </li>
+                            </ul>
+                            <span class="smallFont">* Forrester Consulting : « The total economic impact of Power Apps » (en anglais) </span>
+                        </fr>
+                    </multilang>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="powerplatformvspowerapps">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                        <multilang>
+                            <en>
+                                What is the difference between MS Power Platform, MS Power Apps?
+                            </en>
+                            <fr>
+                                Quelle est la différence entre MS Power Platform et MS Power Apps?
+                            </fr>
+                        </multilang>
+                    </button>
+                </h5>
+            </div>
+            <div id="collapse2" class="collapse" data-parent="#divFaq">
+                <div class="card-body">
+                    <multilang>
+                        <en>
+                            This can be a bit confusing. Below are diagrams to show which products and capabilities are provided within each.
+                            <br />
+                            <a href="https://docs.microsoft.com/en-ca/learn/modules/build-app-solution/">MS Power Platform</a> and <a href="https://powerapps.microsoft.com/en-us/">MS Power Apps</a> websites have additional content.
+<br/><br/>
+<img src="https://www.gcpedia.gc.ca/gcwiki/images/d/d8/Mpp.png" alt="Microsoft Power Platform" class="medImg" />
+<br/>
+<img src="https://www.gcpedia.gc.ca/gcwiki/images/3/3c/D365vpp.png" alt="MS Power Apps compared to Microsoft Power Platform" class="largeImg" />
+                        </en>
+                        <fr>
+                            La réponse peut porter un peu à confusion. Vous trouverez ci-dessous des diagrammes indiquant les produits et les capacités de chacune des deux applications.
+                            <br />
+                            Les sites Web de <a href="https://docs.microsoft.com/en-ca/learn/modules/build-app-solution/">MS Power Platform</a> and de <a href="https://powerapps.microsoft.com/en-us/">MS Power Apps</a> des renseignements additionnels.
+<br/><br/>
+<img src="https://www.gcpedia.gc.ca/gcwiki/images/0/09/Mpp_fra.png" alt="Microsoft Power Platform" class="medImg" />
+<br/>
+<img src="https://www.gcpedia.gc.ca/gcwiki/images/d/d6/D365vpp_fra.png" alt="MS Power Apps et Microsoft Power Platform" class="largeImg" />
+                        </fr>
+                    </multilang>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="powerplatformvspowerapps">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                        <multilang>
+                            <en>
+                                What is the difference between model-driven app, canvas app, and portals?
+                            </en>
+                            <fr>
+                                Quelle est la différence entre une application basée sur modèle, une application canevas et un portail?
+                            </fr>
+                        </multilang>
+                    </button>
+                </h5>
+            </div>
+            <div id="collapse3" class="collapse" data-parent="#divFaq">
+                <div class="card-body">
+                    <multilang>
+                        <en>
+                            Different types of Power Apps for different scenarios.
+                            <br /><br />
+                            Power Apps can create three types of apps: canvas, model-driven, and portals. Each is suited to different scenarios and end users.
+                            <br /><br />
+                            <h4>Canvas apps </h4>
+                            Canvas apps are a great option when you want to build an app from a blank canvas. You start by choosing the screen size: tablet or mobile, then you have a blank screen from which to build. You can interact with data in your app by adding data sources. Drag and drop various controls and add the desired functionality by writing Excel style formulas. Canvas apps provide you complete flexibility when building your apps.
+                            Below is an example of a Canvas app currently being used at Transport Canada: Gradual Return to the Workplace.
+<br/><br/>
+<img src="https://www.gcpedia.gc.ca/gcwiki/images/5/52/Canvasapp.png" alt="Canvas Apps" class="medImg" />
+                            <br /><br />
+                            <h4>Model-driven apps </h4>
+                            Model-driven apps build from data in the Dataverse. Power Apps will build you a great looking, fully functional app to act upon and interact with this data. With model-driven apps, there is no need to worry about choosing the app size; it is responsive, meaning it works on mobile or tablet with no extra work by you. You define the relationships, forms, views, business rules, and more at the data layer, inside of the Dataverse, giving you enough control to get your business result without writing all the formulas yourself.
+                            Below is an example of Model-driven app currently being used at Transport Canada: NWAR.
+<br/><br/>
+<img src="https://www.gcpedia.gc.ca/gcwiki/images/3/39/Modelapp.png" alt="Model-driven Apps" class="medImg" />
+                            <br /><br />
+                            <h4>Portals </h4>
+                            Portals bring the power of no-code solutions to building externally facing websites. Through the Power Apps interface, you can build an anonymous or authenticated website that allows users to interact with data held in Dataverse. The same drag and drop experience you enjoy when building apps is available to build these rich, interactive websites.
+<br/><br/>
+<img src="https://www.gcpedia.gc.ca/gcwiki/images/1/17/Portalapp.png" alt="Portals" class="medImg" />
+                        </en>
+                        <fr>
+                            Il s’agit de différents types d’applications Power Apps répondant à différents scénarios.
+                            <br /><br />
+                            Power Apps permet de créer trois types d’applications : les applications canevas, les applications basées sur modèle et les portails. Chacune d’entre elles est adaptée à différents scénarios et utilisateurs finaux.
+                            <br /><br />
+                            <h4>Applications canevas</h4>
+                            Les applications canevas constituent une excellente option si vous souhaitez créer une application à partir d’un canevas vierge. Vous commencez par choisir la taille de l’écran (tablette ou appareil portable), puis vous créez votre application à partir d’un écran vierge. Vous pouvez intégrer des données à votre application en ajoutant des sources de données. Faites glisser divers éléments sur le canevas et ajoutez les fonctionnalités souhaitées au moyen de formules de type Excel. La création d’applications canevas permet une très grande souplesse.
+                            Vous trouverez ci-dessous un exemple d’une application canevas actuellement utilisée par Transports Canada : retour progressif au milieu de travail.
+<br/><br/>
+<img src="https://www.gcpedia.gc.ca/gcwiki/images/6/6a/Canvasapp_fra.png" alt="Applications canevas" class="medImg" />
+                            <br /><br />
+                            <h4>Applications basée sur un modèle</h4>>
+                            Les applications basée sur modèle sont créées à partir de données publiées dans Dataverse. Power Apps vous aidera à créer une application attrayante et entièrement fonctionnelle permettant d’agir et d’interagir avec ces données. Le choix de la taille d’une application n’est pas un problème avec les applications basées sur modèle, car elles sont réactives, c’est-à-dire qu’elles fonctionnent sur un appareil mobile ou une tablette sans intervention supplémentaire de votre part. Vous définissez les relations, les formulaires, les vues, les règles opérationnelles et plus encore au niveau de la couche de données, dans Dataverse, ce qui vous donne suffisamment de contrôle pour obtenir le résultat souhaité sans avoir à écrire toutes les formules vous-même.
+                            Vous trouverez ci-dessous un exemple d’application basée sur modèle actuellement utilisé par Transports Canada : NWAR.
+<br/><br/>
+<img src="https://www.gcpedia.gc.ca/gcwiki/images/c/c4/Modelapp_fra.png" alt="Applications basée sur un modèle" class="medImg" />
+                            <br /><br />
+                            <h4>Portails</h4>>
+                            Les portails apportent la puissance des solutions sans code à la construction de sites Web destinés au public. Grâce à l’interface Power Apps, vous pouvez créer un site Web anonyme ou authentifié où les utilisateurs peuvent d’interagir avec les données contenues dans Dataverse. Vous pouvez créer des sites Web complexes et interactifs grâce à la même fonction glisser-déposer que celle que vous utilisez pour créer des applications.
+<br/><br/>
+<img src="https://www.gcpedia.gc.ca/gcwiki/images/1/17/Portalapp.png" alt="Portails" class="medImg" />
+                            <br /><br />
+                            Avertissement : certains images de tiers ne sont malheureusement pas disponibles dans les deux langues officielles.
+                        </fr>
+                    </multilang>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="whatisdataverse">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                        <multilang>
+                            <en>
+                                What is Dataverse?
+                            </en>
+                            <fr>
+                                Qu’est-ce que Dataverse?
+                            </fr>
+                        </multilang>
+                    </button>
+                </h5>
+            </div>
+            <div id="collapse4" class="collapse" data-parent="#divFaq">
+                <div class="card-body">
+                    <multilang>
+                        <en>
+                            Dataverse is the Microsoft Dynamics 365 database. It used to be called Common Data Service (CDS).
+                        </en>
+                        <fr>
+                            Dataverse est la base de données de Microsoft Dynamics 365. Elle était autrefois appelée Common Data Service (CDS).
+                        </fr>
+                    </multilang>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="d365vspowerapps">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                        <multilang>
+                            <en>
+                                What is the difference between MS Dynamics 365 and Model-Driven Power Apps?
+                            </en>
+                            <fr>
+                                Quelle est la différence entre MS Dynamics 365 et une application basée sur modèle Power Apps?
+                            </fr>
+                        </multilang>
+                    </button>
+                </h5>
+            </div>
+            <div id="collapse5" class="collapse" data-parent="#divFaq">
+                <div class="card-body">
+                    <multilang>
+                        <en>
+                            Microsoft Dynamics 365 is a product line of enterprise resource planning (ERP) and customer relationship management (CRM) intelligent business applications developed by Microsoft. These applications are model-driven apps that are developed by Microsoft.  Some examples of MS D365 Apps include:
+                            <ul>
+                                <li>Dynamics 365 For Customer Service; </li>
+                                <li>Dynamics 365 For Field Service;  </li>
+                                <li>Dynamics 365 for Project Service Automation.  </li>
+                            </ul>
+                            These apps are typically taken as a base and then configured/customized to meet specific client requirement.
+                            A Model-Driven App does not necessarily include a D365 App as its base. In fact, most of our Business Applications only use the basic Dataverse artifacts (tables, forms, views, etc...) and then custom artifacts are added to meet specific business needs.
+                            <br /><br />
+                            These apps are typically taken as a base and then configured/customized to meet specific client requirement.
+                        </en>
+                        <fr>
+                            Microsoft Dynamics 365 est une gamme d’applications commerciales intelligentes de planification des ressources de l’entreprise et de gestion de la relation client développée par Microsoft. Il s’agit d’applications basées sur modèle développées par Microsoft. Voici quelques exemples d’applications MS D365 :
+                            <ul>
+                                <li>Dynamics 365 Customer Service;</li>
+                                <li>Dynamics 365 Field Service </li>
+                                <li>Dynamics 365 Project Service Automation </li>
+                            </ul>
+                            Ce sont des applications de base que l’on peut configurer/personnaliser pour répondre aux besoins spécifiques du client.
+                            Une application basée sur modèle n’est pas nécessairement basée sur une application D365. En fait, la plupart de nos applications de gestion n’utilisent que les éléments de base de Dataverse (tableaux, formulaires, vues, etc.), puis des éléments personnalisés sont ajoutés pour répondre à des besoins spécifiques.
+                            <br /><br />
+                            Il s’agit généralement d’applications de base que l’on peut configurer/personnaliser pour répondre aux besoins spécifiques du client.
+                        </fr>
+                    </multilang>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="powerautomate">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                        <multilang>
+                            <en>
+                                What is Power Automate (formally called Flow)?
+                            </en>
+                            <fr>
+                                Qu’est-ce que Power Automate (anciennement Flow)?
+                            </fr>
+                        </multilang>
+                    </button>
+                </h5>
+            </div>
+            <div id="collapse6" class="collapse" data-parent="#divFaq">
+                <div class="card-body">
+                    <multilang>
+                        <en>
+                            MS rebranded Flow to Power Automate. It is MS’s robotic process automation (RPA) tool to enable anyone to build secure workflows to automate mundane everyday tasks. You can read more about <a href="https://powerautomate.microsoft.com/en-us/">Power Automate</a> and its use cases.
+                        </en>
+                        <fr>
+                            Il s’agit de l’application Flow, que MS a rebaptisée Power Automate. C’est l’outil d’automatisation des processus robotisés de MS qui permet à quiconque de créer des flux de travail sécurisés pour automatiser les tâches routinières. Savoir plus sur <a href="https://powerautomate.microsoft.com/en-us/">Power Automate</a> et ses applications.
+                        </fr>
+                    </multilang>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="environment">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                        <multilang>
+                            <en>
+                                How do I get access to an environment?
+                            </en>
+                            <fr>
+                                Comment puis-je avoir accès à un environnement?
+                            </fr>
+                        </multilang>
+                    </button>
+                </h5>
+            </div>
+            <div id="collapse7" class="collapse" data-parent="#divFaq">
+                <div class="card-body">
+                    <multilang>
+                        <en>
+                            A Power Apps environment is essentially a container for Power Apps, Power Automate, a Dataverse database and connections.
+                            <br /><br />
+                            After you know which power app you would like, send us an email and we will be able to create and share an environment.
+                        </en>
+                        <fr>
+                            Avertissement : certains liens ne sont malheureusement pas disponibles dans les deux langues officielles.
+                            <br /><br />
+                            Un environnement Power Apps est essentiellement une boite à outils qui contient Power Apps, Power Automate, une base de données Dataverse et de connexions.
+                            <br /><br />
+                            Après avoir choisi l’application Power Apps qui répond à vos besoins, sois un application Canvas, un application basée sur un modèle ou un portail, envoyez-nous un courriel afin que nous puissent créer et partager un environnement.
+
+                        </fr>
+                    </multilang>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="cost">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                        <multilang>
+                            <en>
+                                What is the cost to my team and how do I request a license?
+                            </en>
+                            <fr>
+                                Quel est le coût pour mon équipe et comment puis-je demander une licence?
+                            </fr>
+                        </multilang>
+                    </button>
+                </h5>
+            </div>
+            <div id="collapse8" class="collapse" data-parent="#divFaq">
+                <div class="card-body">
+                    <multilang>
+                        <en>
+                            For the 2021 calendar year, licenses have been purchased at the enterprise level, meaning there is no cost to your program.
+                            <br /><br />
+                            In order to obtain licenses for your program, you will need to email the PACE team. In this email, please include how many licenses are needed and what kind of license is needed.
+                            <br /><br />
+                            There are two licenses currently available at the enterprise level to users:
+                            <ol>
+                                <li>Power apps per user - this license is best suited for app users, as well as UX developers. </li>
+
+                                <li>FPC - this license is reserved for users who are doing developer level activity, require the Field Service, Customer Service Enterprise or Project Service Automation functions. </li>
+                            </ol>
+                            In the event you require a license that does not fit the above descriptions, please contact the PACE email, and we will help you determine your needs and any potential costs associated.
+                        </en>
+                        <fr>
+                            Pour l’année civile 2021, les licences ont été achetées pour l’ensemble de l’organisation, ce qui signifie qu’il n’y a aucun coût pour votre programme.
+                            <br /><br />
+                            Pour obtenir des licences pour votre programme, vous devrez envoyer un courriel à l’équipe du PACE. Dans ce courriel, veuillez indiquer le type et le nombre de licences requises.
+                            <br /><br />
+                            Deux licences sont actuellement disponibles pour les utilisateurs au sein de l’organisation :
+                            <ol>
+                                <li>	Power Apps par utilisateur – cette licence est la mieux adaptée aux utilisateurs d’applications et aux développeurs d’expériences utilisateurs. </li>
+                                <li>	FPC – cette licence est réservée aux utilisateurs développeurs qui ont besoin des fonctions Field Service, Customer Service Enterprise ou Project Service Automation.</li>
+                            </ol>
+                            Si vous avez besoin d’une licence qui ne correspond pas à l’une des descriptions ci-dessus, veuillez envoyer un courriel à l’équipe du PACE, qui vous aidera à déterminer vos besoins et à évaluer les coûts.
+
+                        </fr>
+                    </multilang>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="thirdparty">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                        <multilang>
+                            <en>
+                                How do I connect my third-party app to Dataverse?
+                            </en>
+                            <fr>
+                                Comment puis-je connecter mon application tierce à Dataverse?
+                            </fr>
+                        </multilang>
+                    </button>
+                </h5>
+            </div>
+            <div id="collapse9" class="collapse" data-parent="#divFaq">
+                <div class="card-body">
+                    <multilang>
+                        <en>
+                            Dataverse provides two web services that you can use to interact with data: Web API and Organization Service. Choose the one that best matches the requirement and your skills.
+                            <br /><br />
+                            <a href="https://docs.microsoft.com/en-ca/learn/modules/manage-solutions-power-automate/">Work with data using code in Microsoft Dataverse (Power Apps) - Power Apps | Microsoft Docs. </a>
+                        </en>
+                        <fr>
+                            Dataverse offre deux services Web pour interagir avec les données : Web API et Organization Service. Choisissez celui qui correspond le mieux à vos besoins et à vos compétences.
+                            <br /><br />
+                            <a href="https://docs.microsoft.com/en-ca/learn/modules/manage-solutions-power-automate/">Utiliser des données à l’aide de code dans Microsoft Dataverse (Power Apps) – Power Apps | Microsoft Docs.</a>>
+
+                        </fr>
+                    </multilang>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="storage">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                        <multilang>
+                            <en>
+                                Is unlimited storage included?
+                            </en>
+                            <fr>
+                                Le stockage illimité est-il inclus?
+                            </fr>
+                        </multilang>
+                    </button>
+                </h5>
+            </div>
+            <div id="collapse10" class="collapse" data-parent="#divFaq">
+                <div class="card-body">
+                    <multilang>
+                        <en>
+                            No, unlimited storage is not included.
+                            <br /><br />
+                            Each license comes with 250 MB of database storage. That storage is combined under the Transport Canada tenant for all to use.
+                            <br /><br />
+                            PACE monitors the use of this storage to ensure no group is exceeding their share of storage in the tenant.
+                            <br /><br />
+                            In the event storage becomes an issue, additional storage can be purchased at the project level.
+                        </en>
+                        <fr>
+                            Non, le stockage illimité n’est pas inclus.
+                            <br /><br />
+                            Chaque licence est assortie d’une capacité de stockage de 250 Mo. Cette capacité de stockage, qui est regroupée sous le client Transport Canada, peut être utilisée par tous.
+                            <br /><br />
+                            Le PACE surveille l’utilisation de cette capacité de stockage pour s’assurer qu’aucun groupe n’utilise plus que la part qui lui revient.
+                            <br /><br />
+                            Si la capacité de stockage devient insuffisante pour un projet, ce dernier peut acheter une capacité supplémentaire.
+
+                        </fr>
+                    </multilang>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="secure">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                        <multilang>
+                            <en>
+                                How secure is Power Apps?
+                            </en>
+                            <fr>
+                                Quel est le degré de sécurité de Power Apps?
+                            </fr>
+                        </multilang>
+                    </button>
+                </h5>
+            </div>
+            <div id="collapse11" class="collapse" data-parent="#divFaq">
+                <div class="card-body">
+                    <multilang>
+                        <en>
+                            Protected B Cloud tenant for all Power Apps applications. Not protected C.
+                            <br /><br />
+                            MS Dynamics 365 is also protected B.
+                            <br /><br />
+                            Note: SharePoint is not a protected B environment if used as data point for a canvas app.
+                        </en>
+                        <fr>
+                            Environnement en nuage de catégorie Protégé B pour toutes les applications Power Apps. Elles ne permettent pas de traiter de l’information de catégorie Protégé C.
+                            <br /><br />
+                            L’application MS Dynamics 365 permet elle aussi de traiter de l’information de catégorie Protégé B.
+                            <br /><br />
+                            Remarque : L’application SharePoint n’est pas un environnement Protégé B lorsqu’elle est utilisée comme point de données pour une application canevas.
+
+                        </fr>
+                    </multilang>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="questions">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                        <multilang>
+                            <en>
+                                Who do I contact if I have more questions?
+                            </en>
+                            <fr>
+                                Qui dois-je contacter si j’ai d’autres questions?
+                            </fr>
+                        </multilang>
+                    </button>
+                </h5>
+            </div>
+            <div id="collapse12" class="collapse" data-parent="#divFaq">
+                <div class="card-body">
+                    <multilang>
+                        <en>
+                            You can reach out to us at PowerAppsCenterOfExcellence-PowerAppsCentreDExcellence@tc.gc.ca.
+                        </en>
+                        <fr>
+                            Vous pouvez nous contacter à l’adresse suivante : PowerAppsCenterOfExcellence-PowerAppsCentreDExcellence@tc.gc.ca.
+                        </fr>
+                    </multilang>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="createapp">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                        <multilang>
+                            <en>
+                                How do I create my app?
+                            </en>
+                            <fr>
+                                Comment puis-je créer mon application?
+                            </fr>
+                        </multilang>
+                    </button>
+                </h5>
+            </div>
+            <div id="collapse13" class="collapse" data-parent="#divFaq">
+                <div class="card-body">
+                    <multilang>
+                        <en>
+There is a lot of content to unpack here! 
+<br /><br/>
+Below are some tutorials that helped other teams get started that you may find useful. This list is not exhaustive. We recommend searching YouTube in addition to the provided links.  
+<br /><br/>
+We can also arrange to have one of our teams demo a Power Apps product that we have built. 
+<br /><br/>
+<strong>General </strong>
+<ol>
+<li><a href="https://docs.microsoft.com/en-us/powerapps/developer/data-platform/work-with-data">Business Apps | Microsoft Power Apps</a> </li>
+
+<li><a href="https://docs.microsoft.com/en-ca/learn/paths/get-started-power-apps-portals/">Introduction to Power Apps - Learn | Microsoft Docs </a></li>
+
+<li><a href="https://powerusers.microsoft.com/t5/Power-Apps-Community/ct-p/PowerApps1">Microsoft Power Apps community </a></li>
+
+<li><a href="https://365.training/Courses">Dynamics 365 training courses </a></li>
+
+<li><a href="https://docs.microsoft.com/en-ca/learn/browse/?products=power-apps">Microsoft learning modules </a></li>
+
+<li><a href="https://docs.microsoft.com/en-ca/learn/certifications/browse/">Microsoft certification and exams </a></li>
+</ol>
+<strong>Model-driven app </strong>
+<ol>
+<li><a href="https://docs.microsoft.com/en-ca/learn/modules/intro-model-driven-apps-common-data-service/">Introduction to model-driven and Dataverse </a></li>
+
+<li><a href="https://docs.microsoft.com/en-ca/learn/modules/get-started-with-model-driven-apps-in-powerapps/">Get started with model-driven apps in Power Apps </a></li>
+
+<li><a href="https://docs.microsoft.com/en-ca/learn/modules/how-build-model-driven-app/">How to build a model-driven app </a></li>
+
+<li><a href="https://docs.microsoft.com/en-ca/learn/paths/create-app-models-business-processes/">Create a model-driven application in Power Apps </a></li>
+</ol>
+<strong>Canvas app </strong>
+<ol>
+<li><a href="https://docs.microsoft.com/en-ca/learn/modules/build-app-solution/">How to build a canvas app </a></li>
+
+<li><a href="https://docs.microsoft.com/en-ca/learn/paths/create-powerapps/">Create a canvas app in Power Apps </a></li>
+</ol>
+<strong>Portals (external) </strong>
+<ol>
+<li><a href="https://docs.microsoft.com/en-ca/learn/modules/introduction-power-apps-portals/">Introduction to Power Apps portals </a></li>
+
+<li><a href="https://docs.microsoft.com/en-ca/learn/modules/explore-portals/">Explore Power Apps portals </a></li>
+
+<li><a href="https://docs.microsoft.com/en-ca/learn/paths/get-started-power-apps-portals/">Get Started with Power Apps portals</a> </li>
+
+<li><a href="https://docs.microsoft.com/en-ca/learn/modules/intro-portals/">Introduction to Power Apps portals 2</a> </li>
+</ol>
+<strong>Automate (robotic process automation product) </strong>
+<ol>
+<li><a href="https://docs.microsoft.com/en-ca/learn/modules/manage-solutions-power-automate/">Manage solutions in Power Apps and Power Automate</a> </li>
+</ol>
+                        </en>
+                        <fr>
+<em>Avertissement : certains liens ne sont malheureusement pas disponibles dans les deux langues officielles.</em>
+<br /><br/>
+Il y a beaucoup de contenu à aborder!
+<br /><br/>
+Vous trouverez ci-dessous quelques tutoriels qui ont aidé d’autres équipes à démarrer et qui pourraient vous être utiles. Cette liste n’est pas exhaustive. Nous vous recommandons de faire une recherche sur YouTube en complément des liens fournis ci-dessous. 
+<br /><br/>
+L’une de nos équipes peut également faire une démonstration d’un produit Power Apps que nous avons construit.
+<br /><br/>
+<strong>Généralités</strong>
+<ol>
+<li><a href="https://powerapps.microsoft.com/fr-fr/">Applications de gestion | Microsoft Power Apps</a></li>
+<li><a href="https://docs.microsoft.com/fr-ca/learn/modules/introduction-power-apps/">Présentation de Power Apps | Microsoft Docs</a></li>
+<li><a href="https://powerusers.microsoft.com/t5/Power-Apps-Community/ct-p/PowerApps1">Communauté Microsoft Power Apps</a></li>
+<li><a href="https://365.training/Courses">Formations pour Dynamics 365</a></li>
+<li><a href="https://docs.microsoft.com/fr-fr/learn/browse/?products=power-apps">Modules d’apprentissage Microsoft</a></li>
+<li><a href="https://docs.microsoft.com/fr-ca/learn/certifications/browse/">Certification et examens Microsoft</a></li>
+</ol>
+<strong>Application basée sur modèle</strong>
+<ol>
+<li><a href="https://docs.microsoft.com/fr-ca/learn/modules/intro-model-driven-apps-common-data-service/">Présentation des applications basée sur modèle et Dataverse</a></li>
+<li><a href="https://docs.microsoft.com/fr-ca/learn/modules/get-started-with-model-driven-apps-in-powerapps/">Mise en route avec les applications basées sur modèle dans Power Apps</a></li>
+<li><a href="https://docs.microsoft.com/fr-ca/learn/modules/how-build-model-driven-app/">Comment créer une application basée sur modèle</a></li>
+<li><a href="https://docs.microsoft.com/fr-ca/learn/paths/create-app-models-business-processes/">Créer une application basée sur modèle dans Power Apps</a></li>
+</ol>
+<strong>Application canevas</strong>
+<ol>
+<li><a href="https://docs.microsoft.com/fr-ca/learn/modules/build-app-solution/">Comment créer une application canevas</a></li>
+<li><a href="https://docs.microsoft.com/fr-ca/learn/paths/create-powerapps/">Créer une application canevas dans Power Apps</a></li>
+</ol>
+<strong>Portails (externes)</strong>
+<ol>
+<li><a href="https://docs.microsoft.com/fr-ca/learn/modules/introduction-power-apps-portals/">Présentation des portails Power Apps</a></li>
+<li><a href="https://docs.microsoft.com/fr-ca/learn/modules/explore-portals/">Explorer les portails Power Apps</a></li>
+<li><a href="https://docs.microsoft.com/fr-ca/learn/paths/get-started-power-apps-portals/">Bien démarrer avec les portails Power Apps</a></li>
+<li><a href="https://docs.microsoft.com/fr-ca/learn/modules/intro-portals/">Présentation des portails Power Apps 2</a></li>
+</ol>
+<strong>Automatisation (produit d’automatisation de processus robotisés)</strong>
+<ol>
+<li><a href="https://docs.microsoft.com/fr-ca/learn/modules/manage-solutions-power-automate/">Gérer des solutions dans Power Apps et Power Automate</a></li>
+</ol>
+                        </fr>
+                    </multilang>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="presentations">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
+                        <multilang>
+                            <en>
+                                PACE Presentations
+                            </en>
+                            <fr>
+                                Présentations PACE
+                            </fr>
+                        </multilang>
+                    </button>
+                </h5>
+            </div>
+            <div id="collapse14" class="collapse" data-parent="#divFaq">
+                <div class="card-body">
+                    <multilang>
+                        <en>
+                            PACE has a number of presentations that have been put together from the beginning of Power Apps adoption until now. These presentations may contain additional information that you may find helpful.
+                            <ul>
+                                <li>PACE – CIO Presentation (RDIMS #<a href="pcdocs://RDIMS/17072383/R">17072383</a>) </li>
+                                <li>PACE –Citizen Development at TC (RDIMS #<a href="pcdocs://RDIMS/17191047/R">17191047</a>) </li>
+                            </ul>
+                        </en>
+                        <fr>
+                            PACE dispose d’un certain nombre de présentations qui ont été mises en place depuis le début de l’adoption de Power Apps jusqu’à aujourd’hui. Ces présentations peuvent contenir des informations supplémentaires qui peuvent vous être utiles.
+                            En français
+                            <ul>
+                                <li>	PACE – CIO Présentation (SGDDI : <a href="pcdocs://RDIMS/17190481/R">17190481</a>)
+                                <li>	PACE – Développement Citoyen à TC (SGDDI : <a href="pcdocs://RDIMS/17191047/R">17191047</a>)</li>
+                            </ul>
+
+                        </fr>
+                    </multilang>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</html>
+{{tcCentreOfExcellence_pace_footer}}
