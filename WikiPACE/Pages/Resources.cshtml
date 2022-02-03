@@ -3,9 +3,11 @@
 <html>
 <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <style>
-    .panel-default:hover {
-        background-color: #f2f3f4;
-        transform: translate(0px,-2px) scale(1.02);
+    img.largeImg {
+        width: 100%;
+    }
+    img.medImg {
+        width: 50%;
     }
 
     p.intro {
@@ -18,15 +20,6 @@
 
     span.smallFont {
         font-size: 0.5em;
-    }
-
-    p.bio {
-        font-size: 19px;
-    }
-
-    table.bios {
-        border-collapse: separate;
-        border-spacing: 0 2em;
     }
 </style>
 
@@ -72,7 +65,7 @@
                 Quick Links
             </en>
             <fr>
-                FR - Quick Links
+                Liens rapides
             </fr>
         </multilang>
         <ol>
@@ -324,11 +317,19 @@
                             This can be a bit confusing. Below are diagrams to show which products and capabilities are provided within each.
                             <br />
                             <a href="https://docs.microsoft.com/en-ca/learn/modules/build-app-solution/">MS Power Platform</a> and <a href="https://powerapps.microsoft.com/en-us/">MS Power Apps</a> websites have additional content.
+<br/><br/>
+<img src="https://www.gcpedia.gc.ca/gcwiki/images/d/d8/Mpp.png" alt="Microsoft Power Platform" class="medImg" />
+<br/>
+<img src="https://www.gcpedia.gc.ca/gcwiki/images/3/3c/D365vpp.png" alt="MS Power Apps compared to Microsoft Power Platform" class="largeImg" />
                         </en>
                         <fr>
                             La réponse peut porter un peu à confusion. Vous trouverez ci-dessous des diagrammes indiquant les produits et les capacités de chacune des deux applications.
                             <br />
-                            Les sites Web de <a href="https://docs.microsoft.com/en-ca/learn/modules/build-app-solution/">MS Power Platform</a> and de <a href="https://powerapps.microsoft.com/en-us/">MS Power Apps</a> des renseignements additionnels
+                            Les sites Web de <a href="https://docs.microsoft.com/en-ca/learn/modules/build-app-solution/">MS Power Platform</a> and de <a href="https://powerapps.microsoft.com/en-us/">MS Power Apps</a> des renseignements additionnels.
+<br/><br/>
+<img src="https://www.gcpedia.gc.ca/gcwiki/images/0/09/Mpp_fra.png" alt="Microsoft Power Platform" class="medImg" />
+<br/>
+<img src="https://www.gcpedia.gc.ca/gcwiki/images/d/d6/D365vpp_fra.png" alt="MS Power Apps et Microsoft Power Platform" class="largeImg" />
                         </fr>
                     </multilang>
                 </div>
@@ -360,13 +361,19 @@
                             <h4>Canvas apps </h4>
                             Canvas apps are a great option when you want to build an app from a blank canvas. You start by choosing the screen size: tablet or mobile, then you have a blank screen from which to build. You can interact with data in your app by adding data sources. Drag and drop various controls and add the desired functionality by writing Excel style formulas. Canvas apps provide you complete flexibility when building your apps.
                             Below is an example of a Canvas app currently being used at Transport Canada: Gradual Return to the Workplace.
+<br/><br/>
+<img src="https://www.gcpedia.gc.ca/gcwiki/images/5/52/Canvasapp.png" alt="Canvas Apps" class="medImg" />
                             <br /><br />
                             <h4>Model-driven apps </h4>
                             Model-driven apps build from data in the Dataverse. Power Apps will build you a great looking, fully functional app to act upon and interact with this data. With model-driven apps, there is no need to worry about choosing the app size; it is responsive, meaning it works on mobile or tablet with no extra work by you. You define the relationships, forms, views, business rules, and more at the data layer, inside of the Dataverse, giving you enough control to get your business result without writing all the formulas yourself.
                             Below is an example of Model-driven app currently being used at Transport Canada: NWAR.
+<br/><br/>
+<img src="https://www.gcpedia.gc.ca/gcwiki/images/3/39/Modelapp.png" alt="Model-driven Apps" class="medImg" />
                             <br /><br />
                             <h4>Portals </h4>
                             Portals bring the power of no-code solutions to building externally facing websites. Through the Power Apps interface, you can build an anonymous or authenticated website that allows users to interact with data held in Dataverse. The same drag and drop experience you enjoy when building apps is available to build these rich, interactive websites.
+<br/><br/>
+<img src="https://www.gcpedia.gc.ca/gcwiki/images/1/17/Portalapp.png" alt="Portals" class="medImg" />
                         </en>
                         <fr>
                             Il s’agit de différents types d’applications Power Apps répondant à différents scénarios.
@@ -376,13 +383,19 @@
                             <h4>Applications canevas</h4>
                             Les applications canevas constituent une excellente option si vous souhaitez créer une application à partir d’un canevas vierge. Vous commencez par choisir la taille de l’écran (tablette ou appareil portable), puis vous créez votre application à partir d’un écran vierge. Vous pouvez intégrer des données à votre application en ajoutant des sources de données. Faites glisser divers éléments sur le canevas et ajoutez les fonctionnalités souhaitées au moyen de formules de type Excel. La création d’applications canevas permet une très grande souplesse.
                             Vous trouverez ci-dessous un exemple d’une application canevas actuellement utilisée par Transports Canada : retour progressif au milieu de travail.
+<br/><br/>
+<img src="https://www.gcpedia.gc.ca/gcwiki/images/6/6a/Canvasapp_fra.png" alt="Applications canevas" class="medImg" />
                             <br /><br />
                             <h4>Applications basée sur un modèle</h4>>
                             Les applications basée sur modèle sont créées à partir de données publiées dans Dataverse. Power Apps vous aidera à créer une application attrayante et entièrement fonctionnelle permettant d’agir et d’interagir avec ces données. Le choix de la taille d’une application n’est pas un problème avec les applications basées sur modèle, car elles sont réactives, c’est-à-dire qu’elles fonctionnent sur un appareil mobile ou une tablette sans intervention supplémentaire de votre part. Vous définissez les relations, les formulaires, les vues, les règles opérationnelles et plus encore au niveau de la couche de données, dans Dataverse, ce qui vous donne suffisamment de contrôle pour obtenir le résultat souhaité sans avoir à écrire toutes les formules vous-même.
                             Vous trouverez ci-dessous un exemple d’application basée sur modèle actuellement utilisé par Transports Canada : NWAR.
+<br/><br/>
+<img src="https://www.gcpedia.gc.ca/gcwiki/images/c/c4/Modelapp_fra.png" alt="Applications basée sur un modèle" class="medImg" />
                             <br /><br />
                             <h4>Portails</h4>>
                             Les portails apportent la puissance des solutions sans code à la construction de sites Web destinés au public. Grâce à l’interface Power Apps, vous pouvez créer un site Web anonyme ou authentifié où les utilisateurs peuvent d’interagir avec les données contenues dans Dataverse. Vous pouvez créer des sites Web complexes et interactifs grâce à la même fonction glisser-déposer que celle que vous utilisez pour créer des applications.
+<br/><br/>
+<img src="https://www.gcpedia.gc.ca/gcwiki/images/1/17/Portalapp.png" alt="Portails" class="medImg" />
                             <br /><br />
                             Avertissement : certains images de tiers ne sont malheureusement pas disponibles dans les deux langues officielles.
                         </fr>
@@ -733,10 +746,98 @@
                 <div class="card-body">
                     <multilang>
                         <en>
+There is a lot of content to unpack here! 
+<br /><br/>
+Below are some tutorials that helped other teams get started that you may find useful. This list is not exhaustive. We recommend searching YouTube in addition to the provided links.  
+<br /><br/>
+We can also arrange to have one of our teams demo a Power Apps product that we have built. 
+<br /><br/>
+<strong>General </strong>
+<ol>
+<li><a href="https://docs.microsoft.com/en-us/powerapps/developer/data-platform/work-with-data">Business Apps | Microsoft Power Apps</a> </li>
 
+<li><a href="https://docs.microsoft.com/en-ca/learn/paths/get-started-power-apps-portals/">Introduction to Power Apps - Learn | Microsoft Docs </a></li>
+
+<li><a href="https://powerusers.microsoft.com/t5/Power-Apps-Community/ct-p/PowerApps1">Microsoft Power Apps community </a></li>
+
+<li><a href="https://365.training/Courses">Dynamics 365 training courses </a></li>
+
+<li><a href="https://docs.microsoft.com/en-ca/learn/browse/?products=power-apps">Microsoft learning modules </a></li>
+
+<li><a href="https://docs.microsoft.com/en-ca/learn/certifications/browse/">Microsoft certification and exams </a></li>
+</ol>
+<strong>Model-driven app </strong>
+<ol>
+<li><a href="https://docs.microsoft.com/en-ca/learn/modules/intro-model-driven-apps-common-data-service/">Introduction to model-driven and Dataverse </a></li>
+
+<li><a href="https://docs.microsoft.com/en-ca/learn/modules/get-started-with-model-driven-apps-in-powerapps/">Get started with model-driven apps in Power Apps </a></li>
+
+<li><a href="https://docs.microsoft.com/en-ca/learn/modules/how-build-model-driven-app/">How to build a model-driven app </a></li>
+
+<li><a href="https://docs.microsoft.com/en-ca/learn/paths/create-app-models-business-processes/">Create a model-driven application in Power Apps </a></li>
+</ol>
+<strong>Canvas app </strong>
+<ol>
+<li><a href="https://docs.microsoft.com/en-ca/learn/modules/build-app-solution/">How to build a canvas app </a></li>
+
+<li><a href="https://docs.microsoft.com/en-ca/learn/paths/create-powerapps/">Create a canvas app in Power Apps </a></li>
+</ol>
+<strong>Portals (external) </strong>
+<ol>
+<li><a href="https://docs.microsoft.com/en-ca/learn/modules/introduction-power-apps-portals/">Introduction to Power Apps portals </a></li>
+
+<li><a href="https://docs.microsoft.com/en-ca/learn/modules/explore-portals/">Explore Power Apps portals </a></li>
+
+<li><a href="https://docs.microsoft.com/en-ca/learn/paths/get-started-power-apps-portals/">Get Started with Power Apps portals</a> </li>
+
+<li><a href="https://docs.microsoft.com/en-ca/learn/modules/intro-portals/">Introduction to Power Apps portals 2</a> </li>
+</ol>
+<strong>Automate (robotic process automation product) </strong>
+<ol>
+<li><a href="https://docs.microsoft.com/en-ca/learn/modules/manage-solutions-power-automate/">Manage solutions in Power Apps and Power Automate</a> </li>
+</ol>
                         </en>
                         <fr>
-
+<em>Avertissement : certains liens ne sont malheureusement pas disponibles dans les deux langues officielles.</em>
+<br /><br/>
+Il y a beaucoup de contenu à aborder!
+<br /><br/>
+Vous trouverez ci-dessous quelques tutoriels qui ont aidé d’autres équipes à démarrer et qui pourraient vous être utiles. Cette liste n’est pas exhaustive. Nous vous recommandons de faire une recherche sur YouTube en complément des liens fournis ci-dessous. 
+<br /><br/>
+L’une de nos équipes peut également faire une démonstration d’un produit Power Apps que nous avons construit.
+<br /><br/>
+<strong>Généralités</strong>
+<ol>
+<li><a href="https://powerapps.microsoft.com/fr-fr/">Applications de gestion | Microsoft Power Apps</a></li>
+<li><a href="https://docs.microsoft.com/fr-ca/learn/modules/introduction-power-apps/">Présentation de Power Apps | Microsoft Docs</a></li>
+<li><a href="https://powerusers.microsoft.com/t5/Power-Apps-Community/ct-p/PowerApps1">Communauté Microsoft Power Apps</a></li>
+<li><a href="https://365.training/Courses">Formations pour Dynamics 365</a></li>
+<li><a href="https://docs.microsoft.com/fr-fr/learn/browse/?products=power-apps">Modules d’apprentissage Microsoft</a></li>
+<li><a href="https://docs.microsoft.com/fr-ca/learn/certifications/browse/">Certification et examens Microsoft</a></li>
+</ol>
+<strong>Application basée sur modèle</strong>
+<ol>
+<li><a href="https://docs.microsoft.com/fr-ca/learn/modules/intro-model-driven-apps-common-data-service/">Présentation des applications basée sur modèle et Dataverse</a></li>
+<li><a href="https://docs.microsoft.com/fr-ca/learn/modules/get-started-with-model-driven-apps-in-powerapps/">Mise en route avec les applications basées sur modèle dans Power Apps</a></li>
+<li><a href="https://docs.microsoft.com/fr-ca/learn/modules/how-build-model-driven-app/">Comment créer une application basée sur modèle</a></li>
+<li><a href="https://docs.microsoft.com/fr-ca/learn/paths/create-app-models-business-processes/">Créer une application basée sur modèle dans Power Apps</a></li>
+</ol>
+<strong>Application canevas</strong>
+<ol>
+<li><a href="https://docs.microsoft.com/fr-ca/learn/modules/build-app-solution/">Comment créer une application canevas</a></li>
+<li><a href="https://docs.microsoft.com/fr-ca/learn/paths/create-powerapps/">Créer une application canevas dans Power Apps</a></li>
+</ol>
+<strong>Portails (externes)</strong>
+<ol>
+<li><a href="https://docs.microsoft.com/fr-ca/learn/modules/introduction-power-apps-portals/">Présentation des portails Power Apps</a></li>
+<li><a href="https://docs.microsoft.com/fr-ca/learn/modules/explore-portals/">Explorer les portails Power Apps</a></li>
+<li><a href="https://docs.microsoft.com/fr-ca/learn/paths/get-started-power-apps-portals/">Bien démarrer avec les portails Power Apps</a></li>
+<li><a href="https://docs.microsoft.com/fr-ca/learn/modules/intro-portals/">Présentation des portails Power Apps 2</a></li>
+</ol>
+<strong>Automatisation (produit d’automatisation de processus robotisés)</strong>
+<ol>
+<li><a href="https://docs.microsoft.com/fr-ca/learn/modules/manage-solutions-power-automate/">Gérer des solutions dans Power Apps et Power Automate</a></li>
+</ol>
                         </fr>
                     </multilang>
                 </div>
@@ -763,16 +864,16 @@
                         <en>
                             PACE has a number of presentations that have been put together from the beginning of Power Apps adoption until now. These presentations may contain additional information that you may find helpful.
                             <ul>
-                                <li>PACE – CIO Presentation (RDIMS #17072383) </li>
-                                <li>PACE –Citizen Development at TC (RDIMS #17191047) </li>
+                                <li>PACE – CIO Presentation (RDIMS #<a href="pcdocs://RDIMS/17190481/R">17190481</a>) </li>
+                                <li>PACE –Citizen Development at TC (RDIMS #<a href="pcdocs://RDIMS/17191047/R">17191047</a>) </li>
                             </ul>
                         </en>
                         <fr>
                             PACE dispose d’un certain nombre de présentations qui ont été mises en place depuis le début de l’adoption de Power Apps jusqu’à aujourd’hui. Ces présentations peuvent contenir des informations supplémentaires qui peuvent vous être utiles.
                             En français
                             <ul>
-                                <li>	PACE – CIO Présentation (SGDDI : 17190481)
-                                <li>	PACE – Développement Citoyen à TC (SGDDI : 17191047)</li>
+                                <li>	PACE – CIO Présentation (SGDDI : <a href="pcdocs://RDIMS/17190481/R">17190481</a>)
+                                <li>	PACE – Développement Citoyen à TC (SGDDI : <a href="pcdocs://RDIMS/17191047/R">17191047</a>)</li>
                             </ul>
 
                         </fr>
