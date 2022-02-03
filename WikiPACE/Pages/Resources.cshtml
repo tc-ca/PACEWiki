@@ -10,12 +10,11 @@
         width: 50%;
     }
 
-    p.intro {
-        line-height: 1.8;
-        font-size: 20px;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
+    :target {
+      display: block;
+      position: relative;
+      top: -120px; 
+      visibility: hidden;
     }
 
     span.smallFont {
@@ -49,12 +48,12 @@
             <en>
                 Power Apps is a platform for designing, building and deploying low code applications for web and mobile with a view towards silo breaking, scalability, and re-usability.
                 <br /><br />
-                PS - We are constantly looking to improve the content on this wiki, so if you don’t find the answer to your question then feel free to reach out to us at PowerAppsCenterOfExcellence-PowerAppsCentreDExcellence@tc.gc.ca.
+                PS - We are constantly looking to improve the content on this wiki, so if you don’t find the answer to your question then feel free to reach out to us at <a href="mailto:PowerAppsCenterOfExcellence-PowerAppsCentreDExcellence@tc.gc.ca">PowerAppsCenterOfExcellence-PowerAppsCentreDExcellence@tc.gc.ca</a>.
             </en>
             <fr>
                 Power Apps est une plateforme qui permet de concevoir, de développer et de déployer des applications « low-code » pour le Web et les appareils mobiles dans une optique de décloisonnement, d’évolutivité et de réutilisation.
                 <br /><br />
-                PS : nous cherchons constamment à améliorer le contenu de ce wiki, donc si vous ne trouvez pas de réponse à votre question, n’hésitez pas à nous contacter à PowerAppsCenterOfExcellence-PowerAppsCentreDExcellence@tc.gc.ca.
+                PS : nous cherchons constamment à améliorer le contenu de ce wiki, donc si vous ne trouvez pas de réponse à votre question, n’hésitez pas à nous contacter à <a href="mailto:PowerAppsCenterOfExcellence-PowerAppsCentreDExcellence@tc.gc.ca">PowerAppsCenterOfExcellence-PowerAppsCentreDExcellence@tc.gc.ca</a>.
             </fr>
         </multilang>
     </div>
@@ -243,7 +242,8 @@
     <br />
     <div class="accordian" id="divFaq">
         <div class="card">
-            <div class="card-header" id="whyuse">
+            <a id="whyuse"></a>
+            <div class="card-header">
                 <h5 class="mb-0">
                     <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
                         <multilang>
@@ -296,7 +296,8 @@
             </div>
         </div>
         <div class="card">
-            <div class="card-header" id="powerplatformvspowerapps">
+            <a id="powerplatformvspowerapps"></a>
+            <div class="card-header">
                 <h5 class="mb-0">
                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
                         <multilang>
@@ -336,7 +337,8 @@
             </div>
         </div>
         <div class="card">
-            <div class="card-header" id="powerplatformvspowerapps">
+            <a id="modelvscanvasvsportal"></a>
+            <div class="card-header">
                 <h5 class="mb-0">
                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
                         <multilang>
@@ -404,7 +406,8 @@
             </div>
         </div>
         <div class="card">
-            <div class="card-header" id="whatisdataverse">
+            <a id="whatisdataverse"></a>
+            <div class="card-header">
                 <h5 class="mb-0">
                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
                         <multilang>
@@ -432,7 +435,8 @@
             </div>
         </div>
         <div class="card">
-            <div class="card-header" id="d365vspowerapps">
+            <a id="d365vspowerapps"></a>
+            <div class="card-header">
                 <h5 class="mb-0">
                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
                         <multilang>
@@ -478,7 +482,8 @@
             </div>
         </div>
         <div class="card">
-            <div class="card-header" id="powerautomate">
+            <a id="powerautomate"></a>
+            <div class="card-header">
                 <h5 class="mb-0">
                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
                         <multilang>
@@ -506,7 +511,8 @@
             </div>
         </div>
         <div class="card">
-            <div class="card-header" id="environment">
+            <a id="environment"></a>
+            <div class="card-header">
                 <h5 class="mb-0">
                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
                         <multilang>
@@ -541,7 +547,8 @@
             </div>
         </div>
         <div class="card">
-            <div class="card-header" id="cost">
+            <a id="cost"></a>
+            <div class="card-header">
                 <h5 class="mb-0">
                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
                         <multilang>
@@ -589,7 +596,8 @@
             </div>
         </div>
         <div class="card">
-            <div class="card-header" id="thirdparty">
+            <a id="thirdparty"></a>
+            <div class="card-header">
                 <h5 class="mb-0">
                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
                         <multilang>
@@ -622,7 +630,8 @@
             </div>
         </div>
         <div class="card">
-            <div class="card-header" id="storage">
+            <a id="storage"></a>
+            <div class="card-header">
                 <h5 class="mb-0">
                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
                         <multilang>
@@ -663,7 +672,8 @@
             </div>
         </div>
         <div class="card">
-            <div class="card-header" id="secure">
+            <a id="secure"></a>
+            <div class="card-header">
                 <h5 class="mb-0">
                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
                         <multilang>
@@ -700,7 +710,8 @@
             </div>
         </div>
         <div class="card">
-            <div class="card-header" id="questions">
+            <a id="questions"></a>
+            <div class="card-header">
                 <h5 class="mb-0">
                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
                         <multilang>
@@ -718,17 +729,18 @@
                 <div class="card-body">
                     <multilang>
                         <en>
-                            You can reach out to us at PowerAppsCenterOfExcellence-PowerAppsCentreDExcellence@tc.gc.ca.
+                            You can reach out to us at <a href="mailto:PowerAppsCenterOfExcellence-PowerAppsCentreDExcellence@tc.gc.ca">PowerAppsCenterOfExcellence-PowerAppsCentreDExcellence@tc.gc.ca</a>.
                         </en>
                         <fr>
-                            Vous pouvez nous contacter à l’adresse suivante : PowerAppsCenterOfExcellence-PowerAppsCentreDExcellence@tc.gc.ca.
+                            Vous pouvez nous contacter à l’adresse suivante : <a href="mailto:PowerAppsCenterOfExcellence-PowerAppsCentreDExcellence@tc.gc.ca">PowerAppsCenterOfExcellence-PowerAppsCentreDExcellence@tc.gc.ca</a>.
                         </fr>
                     </multilang>
                 </div>
             </div>
         </div>
         <div class="card">
-            <div class="card-header" id="createapp">
+            <a id="createapp"></a>
+            <div class="card-header">
                 <h5 class="mb-0">
                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
                         <multilang>
@@ -844,7 +856,8 @@ L’une de nos équipes peut également faire une démonstration d’un produit 
             </div>
         </div>
         <div class="card">
-            <div class="card-header" id="presentations">
+            <a id="presentations"></a>
+            <div class="card-header">
                 <h5 class="mb-0">
                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
                         <multilang>
