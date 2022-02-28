@@ -1,24 +1,20 @@
 ﻿@page
 {{tcCentreOfExcellence_pace}}
 <html>
-
 <style>
-    /*.panel-default:hover{
-        background-color: #f2f3f4  ;
-        transform: translate(0px,-2px) scale(1.02);
+    .card {
+        text-align: center;
+        display: inline;
     }
 
-    .headerText{
-        font-size:20px;
-        font-style: italic;
+    .card-img-top {
+        text-align: center;
+        padding: 15px;
     }
-
-    .letterText{
-        font-size:18px;
-    }*/
-
+    .w-20{
+        width: 20%!important;
+    }
 </style>
-
 <div class="jumbotron-sub-even">
     <h1>
         <multilang>
@@ -28,32 +24,115 @@
     </h1>
 </div>
 <div class="container">
-    <p class="lead text-center">
+    <p class="lead text-center mt-4">
         <multilang>
             <en>A Centre of Excellence supporting effective utilization of the Microsoft Power Apps suite throughout Transport Canada. This includes:</en>
             <fr>(fr) A Centre of Excellence supporting effective utilization of the Microsoft Power Apps suite throughout Transport Canada. This includes:</fr>
         </multilang>
-
     </p>
-    <ol class="rectangle-list">
-        <multilang>
-            <en>
-                <li class="rectangle-list-item bd-orange-500"><p>Creating and supporting the necessary cloud based infrastructure for Power Apps at an organization level</p></li>
-                <li class="rectangle-list-item bd-cyan-800"><p>Identifying promising processes for development that would most benifit from operationalization</p></li>
-                <li class="rectangle-list-item bd-yellow-800"><p>Onboarding such processes into Power Apps, with a view towards silo breaking, scalability, and re-usability</p></li>
-                <li class="rectangle-list-item bd-cyan-700"><p>Establishing robust levels of "in house" knowledge to provide continuity of support for TC and lower dependence on contracted resources</p></li>
-                <li class="rectangle-list-item bd-cyan-500"><p>Working directly with business lines towards the goal of Citizen Development</p></li>
-            </en>
-            <fr>
-                <li class="rectangle-list-item bd-orange-500"><p>(fr) Creating and supporting the necessary cloud based infrastructure for Power Apps at an organization level</p></li>
-                <li class="rectangle-list-item bd-cyan-800"><p>(fr) Identifying promising processes for development that would most benifit from operationalization</p></li>
-                <li class="rectangle-list-item bd-yellow-800"><p>(fr) Onboarding such processes into Power Apps, with a view towards silo breaking, scalability, and re-usability</p></li>
-                <li class="rectangle-list-item bd-cyan-700"><p>(fr) Establishing robust levels of "in house" knowledge to provide continuity of support for TC and lower dependence on contracted resources</p></li>
-                <li class="rectangle-list-item bd-cyan-500"><p>(fr) Working directly with business lines towards the goal of Citizen Development</p></li>
-            </fr>
-        </multilang>
+    <div class="row  mt-4">
+        <div class="w-20 d-flex">
+            <div class="card">
+                <div class="card-img-top bd-orange-500">
+                    <img class="col-6" alt="computing" src="./images/computing.png" />
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        <multilang>
+                            <en>
+                                Creating and supporting the necessary cloud based infrastructure for Power Apps at an organization level
+                            </en>
+                            <fr>
+                                (fr)
+                                Creating and supporting the necessary cloud based infrastructure for Power Apps at an organization level
+                            </fr>
+                        </multilang>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="w-20 d-flex">
+            <div class="card">
+                <div class="card-img-top bd-cyan-800">
+                    <img class="col-6" alt="process" src="./images/process.png" />
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        <multilang>
+                            <en>
+                                Identifying promising processes for development that would most benifit from operationalization
+                            </en>
+                            <fr>
+                                (fr)
+                                Identifying promising processes for development that would most benifit from operationalization
+                            </fr>
+                        </multilang>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="w-20 d-flex">
+            <div class="card">
+                <div class="card-img-top bd-yellow-800">
+                    <img class="col-6" alt="onboard" src="./images/onboard.png" />
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        <multilang>
+                            <en>
+                                Onboarding such processes into Power Apps, with a view towards silo breaking, scalability, and re-usability
+                            </en>
+                            <fr>
+                                (fr)
+                                Onboarding such processes into Power Apps, with a view towards silo breaking, scalability, and re-usability
+                            </fr>
+                        </multilang>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="w-20 d-flex">
+            <div class="card">
+                <div class="card-img-top bd-cyan-700">
+                    <img class="col-6" alt="knowledge" src="./images/knowledge.png" />
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        <multilang>
+                            <en>
+                                Establishing robust levels of "in house" knowledge to provide continuity of support for TC and lower dependence on contracted resources
+                            </en>
+                            <fr>
+                                (fr)
+                                Establishing robust levels of "in house" knowledge to provide continuity of support for TC and lower dependence on contracted resources
+                            </fr>
+                        </multilang>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="w-20 d-flex">
+            <div class="card">
+                <div class="card-img-top bd-cyan-500">
+                    <img class="col-6" alt="develop" src="./images/develop.png" />
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        <multilang>
+                            <en>
+                                Working directly with business lines towards the goal of Citizen Development
+                            </en>
+                            <fr>
+                                (fr)
+                                Working directly with business lines towards the goal of Citizen Development
+                            </fr>
+                        </multilang>
+                    </p>
+                </div>
+            </div>
+        </div>
 
-    </ol>
+    </div>
 </div>
 
 </html>
