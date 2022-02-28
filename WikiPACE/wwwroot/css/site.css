@@ -1481,30 +1481,139 @@ ol.rectangle-list {
 
 .bd-orange-500 {
     background-color: #df6420;
-}
-
-.bd-cyan-800 {
-    background-color: #00698c;
+    color:white;
 }
 
 .bd-blue-500 {
     background-color: #0d6efd;
+    color: white;
 }
 
 .bd-green-500 {
     background-color: #479f76;
+    color: black;
 }
 
 .bd-yellow-800 {
     background-color: #d3df44;
+    color: black;
 }
 
 .bd-cyan-700 {
     background-color: #008ab1;
+    color: white;
+}
+.bd-cyan-800 {
+    background-color: #00698c;
+    color: white;
 }
 
 .bd-cyan-500 {
     background-color: #7cccbd;
+    color: white;
+}
+
+.bd-yellow-500 {
+    background-color: #f2e306;
+    color: black;
+}
+.bd-red-500 {
+    background-color: #ec1b52;
+    color: white;
+}
+.bd-blue-300 {
+    background-color: #14c4f4;
+    color: white;
+}
+.bd-green-600 {
+    background-color: #8cc33c;
+    color: black;
+}
+.bd-grey-500 {
+    background-color: #c9e0ed;
+    color: white;
+}
+.bd-purple-500 {
+    background-color: #ab80b5;
+    color: white;
+}
+.bd-brown-500 {
+    background-color: #c68c65;
+    color: white;
+}
+
+summary.bd-orange-500:hover, summary.bd-orange-500:focus {
+    background-color: #df6420;
+    color: white;
+}
+
+summary.bd-blue-500:hover, summary.bd-blue-500:focus {
+    background-color: #0d6efd;
+    color: white;
+}
+
+summary.bd-green-500:hover, summary.bd-green-500:focus {
+    background-color: #479f76;
+    color: black;
+}
+
+summary.bd-yellow-800:hover, summary.bd-yellow-800:focus {
+    background-color: #d3df44;
+    color: black;
+}
+
+summary.bd-cyan-700:hover, summary.bd-cyan-700:focus {
+    background-color: #008ab1;
+    color: white;
+}
+
+summary.bd-cyan-800:hover, summary.bd-cyan-800:focus {
+    background-color: #00698c;
+    color: white;
+}
+
+summary.bd-cyan-500:hover, summary.bd-cyan-500:focus {
+    background-color: #7cccbd;
+    color: white;
+}
+
+summary.bd-yellow-500:hover, summary.bd-yellow-500:focus {
+    background-color: #f2e306;
+    color: black;
+}
+
+summary.bd-red-500:hover, summary.bd-red-500:focus {
+    background-color: #ec1b52;
+    color: white;
+}
+
+summary.bd-blue-300:hover, summary.bd-blue-300:focus {
+    background-color: #14c4f4;
+    color: white;
+}
+
+summary.bd-green-600:hover, summary.bd-green-600:focus {
+    background-color: #8cc33c;
+    color: black;
+}
+
+summary.bd-grey-500:hover, summary.bd-grey-500:focus {
+    background-color: #c9e0ed;
+    color: white;
+}
+
+summary.bd-purple-500:hover, summary.bd-purple-500:focus {
+    background-color: #ab80b5;
+    color: white;
+}
+
+summary.bd-brown-500:hover, summary.bd-brown-500:focus {
+    background-color: #c68c65;
+    color: white;
+}
+
+summary:hover, summary:focus {
+    filter: brightness(85%);
 }
 
 .rectangle-list-item.bd-orange-500:before, .rectangle-list-item.bd-orange-500 {
