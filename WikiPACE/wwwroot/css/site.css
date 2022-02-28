@@ -1457,26 +1457,54 @@ ol.rectangle-list {
         margin-top: -.5em;
         transition: all .3s ease-out;
     }
-.bd-orange-500 {
+.orange-500 {
     color: #df6420; 
 }
-.bd-cyan-800 {
+.cyan-800 {
     color: #00698c;
 }
-.bd-blue-500 {
+.blue-500 {
     color: #0d6efd;
 }
-.bd-green-500 {
+.green-500 {
     color: #479f76 ;
 }
-.bd-yellow-800 {
+.yellow-800 {
     color: #d3df44;
 }
-.bd-cyan-700 {
+.cyan-700 {
     color: #008ab1;
 }
-.bd-cyan-500 {
+.cyan-500 {
     color: #7cccbd;
+}
+
+.bd-orange-500 {
+    background-color: #df6420;
+}
+
+.bd-cyan-800 {
+    background-color: #00698c;
+}
+
+.bd-blue-500 {
+    background-color: #0d6efd;
+}
+
+.bd-green-500 {
+    background-color: #479f76;
+}
+
+.bd-yellow-800 {
+    background-color: #d3df44;
+}
+
+.bd-cyan-700 {
+    background-color: #008ab1;
+}
+
+.bd-cyan-500 {
+    background-color: #7cccbd;
 }
 
 .rectangle-list-item.bd-orange-500:before, .rectangle-list-item.bd-orange-500 {
