@@ -614,13 +614,7 @@ div#mw-panel {
     display: none;
 }
 
-.w-20 {
-    width: 20% !important;
-}
 
-.w-16 {
-    width: 16% !important;
-}
 
 #footer, header[role="banner"], #mw-page-base, #mw-head-base {
     display: none;
@@ -797,7 +791,7 @@ h2 {
 
 /* line 39, ../scss/main.scss */
 a {
-    color: #da5a26;
+    color: #024CBB;
 }
 
 /* line 42, ../scss/main.scss */
@@ -1494,6 +1488,9 @@ ol.rectangle-list {
 .cyan-500 {
     color: #7cccbd;
 }
+.purple {
+    color: #ab80b5;
+}
 
 .bd-orange-500 {
     background-color: #df6420;
@@ -1637,7 +1634,7 @@ details[open] summary:before {
 
 
 
-@media (min-width: 576px) {
+@media only screen and (min-width: 576px) {
     /* line 397, ../scss/main.scss */
     nav .navbar .navbar-brand {
         display: block;
@@ -1652,9 +1649,16 @@ details[open] summary:before {
     .carousel {
         display: block;
     }
+
+    .w-sm-20 {
+        width: 100%;
+    }
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
+    .w-20 {
+        width: 20%;
+    }
 
     /* line 412, ../scss/main.scss */
     .carousel .carousel-item .caro-text-container {
