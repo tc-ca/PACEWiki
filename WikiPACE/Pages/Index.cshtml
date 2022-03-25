@@ -1,7 +1,20 @@
 ﻿@page
 {{tcCentreOfExcellence_pace}}
 <html lang="en" dir="ltr" class="client-nojs">
+    <style>
+    
+    .card-img-top-container {
+        text-align: center;
+        padding-top: 25px;
+    }
 
+    .card-img-top {
+        width:40%;
+    }
+    .card-footer {
+        background-color:inherit!important;
+    }
+</style>
 <div class="jumbotron-sub">
     <h1 class="pagetitle">
         <multilang>
@@ -50,11 +63,11 @@
                         <fr>
                             <p class="h5">
                                 <br />
-                                PACE s’efforce de 
-                                <span class="orange-500"><strong>transférer </strong></span>des connaissances aux employés, 
-                                <span class="blue-500"><strong>de réduire </strong></span>le besoin de consultants, 
-                                <span class="green-500"><strong>de prendre en charge </strong></span>la gestion agile des produits, 
-                                <span class="purple"><strong>de faciliter </strong></span>l’effort de transformation vers toutes les applications du cloud et de se faire 
+                                PACE s’efforce de
+                                <span class="orange-500"><strong>transférer </strong></span>des connaissances aux employés,
+                                <span class="blue-500"><strong>de réduire </strong></span>le besoin de consultants,
+                                <span class="green-500"><strong>de prendre en charge </strong></span>la gestion agile des produits,
+                                <span class="purple"><strong>de faciliter </strong></span>l’effort de transformation vers toutes les applications du cloud et de se faire
                                 <u><strong>le champion</strong></u> du développement citoyen.
                             </p>
                         </fr>
@@ -72,30 +85,34 @@
     <div class="row info-container">
 
         <!----------------------BOX 1 ---------------------->
-        <div class="box-wrap col-lg-2 offset-lg-3">
-            <div class="info-box">
-                <multilang>
-                    <en><img src="https://www.gcpedia.gc.ca/gcwiki/images/a/a1/Agile_about_us.png" alt="About Us" /></en>
-                    <fr><img src="https://www.gcpedia.gc.ca/gcwiki/images/a/a1/Agile_about_us.png" alt="À propos de nous" /></fr>
-                </multilang>
-
-                <h2>
+        <div class="col-lg-2 offset-lg-3">
+            <div class="card">
+                <div class="card-img-top-container">
+                    <multilang>
+                        <en><img class="card-img-top" src="https://www.gcpedia.gc.ca/gcwiki/images/a/a1/Agile_about_us.png" alt="About Us" /></en>
+                        <fr><img class="card-img-top" src="https://www.gcpedia.gc.ca/gcwiki/images/a/a1/Agile_about_us.png" alt="À propos de nous" /></fr>
+                    </multilang>
+                </div>
+                 <div class="card-body">
+                    <p class="h5">
                     <multilang>
                         <en><strong>About Us</strong></en>
                         <fr><strong>À propos de nous</strong></fr>
                     </multilang>
-                </h2>
-                <div >
+                    </p>
+                    
+                <p>
                     <multilang>
                         <en>
-                            Learn more about our guiding principals, who we are, and the different projects we've worked on at Transport Canada
+                            Learn more about our guiding principals, who we are, and the different projects we've worked on at Transport Canada.
                         </en>
                         <fr>
-Apprenez-en davantage sur nos directeurs principaux, qui nous sommes et les différents projets sur lesquels nous avons travaillé à Transports Canada
+                            Apprenez-en davantage sur nos directeurs principaux, qui nous sommes et les différents projets sur lesquels nous avons travaillé à Transports Canada.
                         </fr>
                     </multilang>
+                </p>
                 </div>
-                <div class="d-grid gap-2 col-8 mx-auto mt-4">
+                <div class="card-footer">
                     <multilang>
                         <en>
                             <a href="https://www.gcpedia.gc.ca/wiki/PowerAppsCentreOfExcellence/AboutUs" class="btn btn-primary btn-lg">Learn more</a>
@@ -113,29 +130,34 @@ Apprenez-en davantage sur nos directeurs principaux, qui nous sommes et les diff
 
 
 
-        <div class="box-wrap col-lg-2">
-            <div class="info-box">
+        <div class="col-lg-2">
+            <div class="card">
+                <div class="card-img-top-container">
                 <multilang>
-                    <en><img src="https://www.gcpedia.gc.ca/gcwiki/images/d/d2/Agile_training.png" alt="Training" /></en>
-                    <fr><img src="https://www.gcpedia.gc.ca/gcwiki/images/d/d2/Agile_training.png" alt="Formation" /></fr>
+                    <en><img class="card-img-top" src="https://www.gcpedia.gc.ca/gcwiki/images/d/d2/Agile_training.png" alt="Training" /></en>
+                    <fr><img class="card-img-top" src="https://www.gcpedia.gc.ca/gcwiki/images/d/d2/Agile_training.png" alt="Formation" /></fr>
                 </multilang>
-                <h2>
+                </div>
+                <div class="card-body">
+                    <p class="h5">
                     <multilang>
                         <en><strong>Training</strong></en>
                         <fr><strong>Formation</strong></fr>
                     </multilang>
-                </h2>
-                <div >
+                    </p>
+                
+                <p>
                     <multilang>
                         <en>
-                            Discover valuable resources that can help you get up to speed quickly with Microsoft PowerApps
+                            Discover valuable resources that can help you get up to speed quickly with Microsoft PowerApps.
                         </en>
                         <fr>
-Découvrez des ressources précieuses qui peuvent vous aider à vous mettre à niveau rapidement avec Microsoft PowerApps
+                            Découvrez des ressources précieuses qui peuvent vous aider à vous mettre à niveau rapidement avec Microsoft PowerApps.
                         </fr>
                     </multilang>
+                </p>
                 </div>
-                <div class="d-grid gap-2 col-8 mx-auto mt-4">
+                <div class="card-footer">
                     <multilang>
                         <en>
                             <a href="https://www.gcpedia.gc.ca/wiki/PowerAppsCentreOfExcellence/TrainingResources" class="btn btn-primary btn-lg">Discover more</a>
@@ -157,36 +179,41 @@ Découvrez des ressources précieuses qui peuvent vous aider à vous mettre à n
 
 
 
-        <div class="box-wrap col-lg-2">
-            <div class="info-box">
+        <div class="col-lg-2">
+            <div class="card">
+                <div class="card-img-top-container">
                 <multilang>
-                    <en><img src="https://www.gcpedia.gc.ca/gcwiki/images/0/0e/Agile_tools.png" alt="Resources" /></en>
-                    <fr><img src="https://www.gcpedia.gc.ca/gcwiki/images/0/0e/Agile_tools.png" alt="Ressources" /></fr>
+                    <en><img class="card-img-top" src="https://www.gcpedia.gc.ca/gcwiki/images/0/0e/Agile_tools.png" alt="Tools & Resources" /></en>
+                    <fr><img class="card-img-top" src="https://www.gcpedia.gc.ca/gcwiki/images/0/0e/Agile_tools.png" alt="Outils & Ressources" /></fr>
                 </multilang>
-                <h2>
+                </div>
+
+                <div class="card-body">
+                    <p class="h5">
                     <multilang>
                         <en><strong>Tools & Resources</strong></en>
                         <fr><strong>Outils & Ressources</strong></fr>
                     </multilang>
-                </h2>
-                <div >
+                </p>
+                <p>
                     <multilang>
                         <en>
-                            Find answers to questions, shortcuts, code snippets and more to help elevate your PowerApps game
+                            Find answers to questions, shortcuts, code snippets and more to help elevate your PowerApps game.
                         </en>
                         <fr>
-Trouvez des réponses aux questions, aux raccourcis, aux extraits de code et plus encore pour améliorer votre jeu PowerApps
+                            Trouvez des réponses aux questions, aux raccourcis, aux extraits de code et plus encore pour améliorer votre jeu PowerApps.
                         </fr>
                     </multilang>
+                </p>
                 </div>
-                <div class="d-grid gap-2 col-8 mx-auto mt-4">
+                <div class="card-footer">
                     <multilang>
                         <en>
-                            <a href="https://www.gcpedia.gc.ca/wiki/PowerAppsCentreOfExcellence/TrainingResources" class="btn btn-primary btn-lg">Get answers</a>
+                            <a href="https://www.gcpedia.gc.ca/wiki/PowerAppsCentreOfExcellence/faq" class="btn btn-primary btn-lg">Get answers</a>
 
                         </en>
                         <fr>
-                            <a href="https://www.gcpedia.gc.ca/wiki/AgileCentreOfExcellence/TrainingResources?lang=fr" class="btn btn-primary btn-lg">Obtenez des réponses</a>
+                            <a href="https://www.gcpedia.gc.ca/wiki/AgileCentreOfExcellence/faq?lang=fr" class="btn btn-primary btn-lg">Obtenez des réponses</a>
                         </fr>
                     </multilang>
                 </div>
